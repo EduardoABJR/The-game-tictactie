@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+app-tic-tac-toe header{
+    text-align: center;
+    background-color: #ecf5f7;
+}
+app-tic-tac-toe .player{
+    font-size: 2em;
+    font-family: sans-serif;
+    border: solid 5px black;
+    padding: 1%;
+}
+app-tic-tac-toe .winner{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+app-tic-tac-toe table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    
+
+}
+app-tic-tac-toe td{
+    border: 2px solid black;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+app-tic-tac-toe .board{
+    font-size: 4em;
+    margin: auto;
+}
